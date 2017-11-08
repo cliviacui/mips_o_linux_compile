@@ -1,0 +1,10 @@
+cd genext2fs-1.4rc1 
+vi mkext4fs.sh 
+modify TMPDIR to you rootfs path
+./mkext4fs.sh ext4
+ if you using emmcnand this ext4.img burn to your emmcnand and if you usimg nand you have do follow somethimg
+ 
+mkimg -i genext2fs-1.4rc1/ext4.img -o genext2fs-1.4rc1/ext4 -f config.ini
+
+the ext4.bin burned to your nand
+   

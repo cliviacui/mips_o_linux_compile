@@ -1,0 +1,2 @@
+把下面两个目录加到path中，就可以编译了
+export PATH=/mips-gcc472-glibc216-32bit-mxu-el/bin/:./host-tool/:$PATH
